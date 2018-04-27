@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+
+    <style type="text/css">
+
+		* {
+			font-family: 'Varela Round', sans-serif;
+			font-weight: bold;
+			text-align: center;
+			justify-content: center;
+		}
+
+		.slider {
+			border: 1px solid black;
+			background: linear-gradient(to bottom right, #caf441, #7ca91b);	
+            /* Full height */
+        	height: 100%; 
+	        /* Center and scale the image nicely */
+            background-position: center;
+	        background-repeat: no-repeat;
+	        background-size: cover;
+		}
+
+        .text-green {
+			color: #a8db48;
+		}
+        
+        .text-gris {
+			color: #595959;
+		}
+        
+        .text-small {
+			font-size: 11px;
+		}
+
+		.text-medium {
+			font-size: 20px;
+		}
+
+		.text-large {
+			font-size: 27px;
+		}
+
+        .encabezado {
+			background-color: #595959;
+			padding-top: 30px;
+		}
+
+        h1{
+        
+            margin: 0;
+            margin-top: 38px;     
+
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 220px;
+        }
+
+        th, td {
+            margin: 20px;
+        }
+
+        tr {
+			line-height: 29px;
+		}
+
+        .espacio-1 {
+			margin: 0px 10px 0px 10px;	
+		
+		}
+         .espacio-2 {
+			margin: 0px 10px 0px 10px;	
+		}
+
+        #tablas {
+			display: flex;
+            margin-top: 20px;
+		}
+
+        #totales {
+			padding-top: 35px;
+		}
+
+		.total {
+			color: #a8db48;
+			background-color: white;
+			margin: 5px 0px ;			
+			width: 190px;
+			border-bottom-right-radius: 25px;
+			border-top-right-radius: 25px;
+			border-bottom-left-radius: 25px;
+			border-top-left-radius: 25px;
+			font-size: 30px;
+			-webkit-box-shadow: inset 0px 0px 3px 3px rgba(0,0,0,0.25);
+			-moz-box-shadow: inset 0px 0px 3px 3px rgba(0,0,0,0.25);
+			box-shadow: inset 0px 0px 3px 3px rgba(0,0,0,0.25);
+		}
+
+
+		button {
+			color: white;
+			background-color: transparent;
+			border-bottom-right-radius: 25px;
+			border-bottom-left-radius: 25px;
+			border-top-right-radius: 25px;
+			border-top-left-radius: 25px;
+			-webkit-box-shadow: inset 0px 0px 3px 3px rgba(0,0,0,0.10);
+			-moz-box-shadow: inset 0px 0px 3px 3px rgba(0,0,0,0.10);
+			box-shadow: inset 0px 0px 3px 3px rgba(0,0,0,0.10);
+			border: none;
+			font-size: 24px;
+			width: 305px;
+			height: 45px;
+            margin: 20px 0px 25px -6px;
+		}
+
+</style>
+
+    <title>Diseño: Ejercicio 3</title>
+  </head>
+  <body>
+<div class="container">
+    
+ <div class="row">   
+     
+    <div class="col-12 col-lg-8 slider"> 
+        
+         <div class="row">
+                  <div class="col-12 encabezado"> 
+                  	   <p class="text-green text-large">Resumen del monto recibido</p>
+                  </div>
+         </div>
+  
+         <div class="row">   
+
+          <div class="col-8 col-md-8" id="tablas"> 
+       	
+			<table class="espacio-1">
+				<tr>
+					<th class="text-small text-gris">CANTIDAD</th>
+					<th class="text-small text-gris">VALOR</th>
+					<th class="text-small text-gris">PESOS</th>
+				</tr>
+
+				<tr>
+					<td class="text-white text-medium">0</td>
+					<td class="text-gris"><i class="fa fa-money"  style="font-size:30px" aria-hidden="true"></i></td>
+					<td class="text-white text-medium">0</td>
+				</tr>
+
+				<tr>
+					<td class="text-white text-medium">5</td>
+					<td class="text-gris"><i class="fa fa-money" style="font-size:30px" aria-hidden="true"></i></td>
+					<td class="text-white text-medium">25</td>
+				</tr>
+
+				<tr>
+					<td class="text-white text-medium">10</td>
+					<td class="text-gris"><i class="fa fa-money" style="font-size:30px" aria-hidden="true"></i></td>
+					<td class="text-white text-medium">100</td>
+				</tr>
+
+				<tr>
+					<td class="text-white text-medium">20</td>
+					<td class="text-gris"><i class="fa fa-money" style="font-size:30px" aria-hidden="true"></i></td>
+					<td class="text-white text-medium">400</td>
+				</tr>
+
+			</table>
+
+			<table class="espacio-1">
+				<tr>
+					<th class="text-small text-gris">CANTIDAD</th>
+					<th class="text-small text-gris">VALOR</th>
+					<th class="text-small text-gris">PESOS</th>
+				</tr>
+
+				<tr>
+					<td class="text-white text-medium">100</td>
+					<td class="text-gris"><i class="fa fa-money" style="font-size:30px" aria-hidden="true"></i></td>
+					<td class="text-white text-medium">5.000</td>
+				</tr>
+
+				<tr>
+					<td class="text-white text-medium">200</td>
+					<td class="text-gris"><i class="fa fa-money" style="font-size:30px" aria-hidden="true"></i></td>
+					<td class="text-white text-medium">20.000</td>
+				</tr>
+
+				<tr>
+					<td class="text-white text-medium">50</td>
+					<td class="text-gris"><i class="fa fa-money" style="font-size:30px" aria-hidden="true"></i></td>
+					<td class="text-white text-medium">10.000</td>
+				</tr>
+
+				<tr>
+					<td class="text-white text-medium">100</td>
+					<td class="text-gris"><i class="fa fa-money" style="font-size:30px" aria-hidden="true"></i></td>
+					<td class="text-white text-medium">50.000</td>
+				</tr>
+
+			</table>
+         </div>
+
+			<div class="col-8 col-md-4" id="totales">
+              <div class="row"> 
+				    <div>
+					    <span class="text-small text-gris">CANTIDAD TOTAL</span>
+					    <p class="text-green text-large total">328</p>
+				    </div>
+              </div>
+              
+              <div class="row"> 
+				    <div>
+					    <span class="text-small text-gris">MONTO TOTAL</span>
+					    <p class="text-green text-large total">$53.564</p>
+				    </div>
+              </div>
+
+			</div>
+
+		</div>
+
+
+       <div class="row"> 
+        <div class="col-12 col-md-6">
+		    <button class="text-white text-large">Agregar mas billetes</button>
+        </div>
+
+        <div class="col-12 col-md-6">
+		<button class="text-white text-large">Aceptar</button>
+       </div>
+       </div>
+ 
+</div>  
+</div>  
+</div>  
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
