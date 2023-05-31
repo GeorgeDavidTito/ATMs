@@ -1,7 +1,7 @@
-# TestNCR
+# ATMs
 
-Evaluación técnica para ingresantes
+Java 8.
 
-Los ejercicios de algoritmos estan realizados en Java 8.
+Diagramas de Ingenieria.
 
 Para simplicar el ejercicio de diseño los estilos de css estan en el mismo archivo.
